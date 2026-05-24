@@ -1,8 +1,13 @@
 ### Lanczos image resizing
 
-Compiled with ```g++ -std=c++20 -O3 -march=native lanczos.cpp -o lanczos -ltbb -pthread```
+Compiled with ```g++ -std=c++20 -O3 lanczos.cpp -o lanczos -ltbb -pthread```
 
-CLI usage: ```./lanczos <input> <output> <new_width> <new_height> [a]```
+- C++20, tbb library a parallelizalashoz
+- stb_image es stb_image_write headerok a kep olvasas/irashoz
+
+CLI: ```./lanczos <input> <output> <new_width> <new_height> [a]```
+
+- alapertelmezett a = 3
 
 
 ```fig_spectrum.png```-re es ```white.jpg```-re teszteltem:
