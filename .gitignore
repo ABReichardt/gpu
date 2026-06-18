@@ -3,6 +3,7 @@ slides/
 .vscode/
 
 lanczos
+lanczos_compare
 
 *_res.*
 *.o
