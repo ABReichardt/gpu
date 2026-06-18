@@ -28,7 +28,7 @@ nvcc -std=c++20 -O3 --fmad=false -c lanczos.cu -o lanczos.cu.o
 g++ lanczos.cpp.o lanczos.cu.o -o lanczos_compare -L/usr/local/cuda/lib64 -lcudart -ltbb -pthread
 ```
 
-- fmad=false es fpp-contract=off, kulonben kerekites miatt nem jonnek ki a tesztek
+- `fmad=false` es `ffp-contract=off`, kulonben kerekites miatt nem jonnek ki a tesztek
 
 
 #### CLI
