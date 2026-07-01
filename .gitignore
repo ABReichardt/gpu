@@ -1,9 +1,13 @@
 etc/
 slides/
 .vscode/
+.claude/
 
 lanczos
 lanczos_compare
 
 *_res.*
 *.o
+gpu_exam_summary.pdf
+gpu_exam_summary.tex
+gpu_indexing.png
